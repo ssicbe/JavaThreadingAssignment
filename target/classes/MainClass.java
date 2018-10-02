@@ -9,10 +9,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 class PrintJob implements Runnable{
-	
 	private String location;
 	private static Logger logger = Logger.getLogger(PrintJob.class);
-	
 	public PrintJob(String location) {
 		
 		this.location=location;
@@ -59,7 +57,7 @@ public class MainClass {
 	
 	public static void main(String[] args) {
 				
-		PrintJob [] jobs= { new PrintJob("United Kingdom"),
+				PrintJob [] jobs= { new PrintJob("United Kingdom"),
 						new PrintJob("USA"),
 						new PrintJob("India"),
 						new PrintJob("Singapore"),		
@@ -68,7 +66,6 @@ public class MainClass {
 		};
 		
 		ExecutorService service=Executors.newFixedThreadPool(2);
-		
 		for(PrintJob job:jobs) {
 		service.submit(job);
 		}
