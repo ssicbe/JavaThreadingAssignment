@@ -5,6 +5,7 @@
   <groupId>com.techninja.firstassignment</groupId>
   <artifactId>JavaThreadingAssignment</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+   <packaging>jar</packaging>
   <dependencies>
     <dependency>
       <groupId>log4j</groupId>
@@ -16,7 +17,9 @@
   </dependencies>
   <build>
 	<plugins>
+
 		<plugin>
+		
 			<!-- Build an executable JAR -->
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-jar-plugin</artifactId>
@@ -40,7 +43,7 @@
          <version>4.0.0</version>
        </configuration>
        <goals>
-         <goal>java</goal>
+         <goal>install</goal>
        </goals>
      </execution>
    </executions>
