@@ -10,7 +10,8 @@
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>1.2.17</version>
-      <scope>provided</scope>
+      <scope>system</scope>
+      <systemPath>${basedir}/src/lib/log4j-1.2.17.jar</systemPath>
     </dependency>
 
   </dependencies>
@@ -31,8 +32,20 @@
 		<descriptorRefs>
           <descriptorRef>jar-with-dependencies</descriptorRef>
         </descriptorRefs>
+           <executions>
+     <execution>
+       <configuration>
+         <models>
+           <model>src/main/mdo/maven.mdo</model>
+         </models>
+         <version>4.0.0</version>
+       </configuration>
+       <goals>
+         <goal>java</goal>
+       </goals>
+     </execution>
+   </executions>
 			</configuration>
-
 		</plugin>
 	</plugins>
 </build>
