@@ -24,9 +24,9 @@
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
-      <id>central</id>
-      <name>Central Repository</name>
-      <url>https://repo.maven.apache.org/maven2</url>
+      <id>GitHub</id>
+      <name>JavaThreadingAssignment</name>
+      <url>https://github.com/ssicbe/JavaThreadingAssignment.git</url>
     </repository>
   </repositories>
   <pluginRepositories>
