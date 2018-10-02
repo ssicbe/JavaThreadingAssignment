@@ -24,7 +24,7 @@
 			<configuration>
 				<archive>
 					<manifest>
-						<mainClass>MainClass</mainClass>
+						<mainClass>com.techninja.firstassignment.MainClass</mainClass>
 						<addClasspath>true</addClasspath>
 					</manifest>
 				</archive>
