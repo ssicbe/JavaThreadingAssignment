@@ -27,8 +27,10 @@
 			<configuration>
 				<archive>
 					<manifest>
-						<mainClass>com.techninja.firstassignment.MainClass</mainClass>
 						<addClasspath>true</addClasspath>
+						<classpathPrefix>lib/</classpathPrefix>
+						<mainClass>com.techninja.firstassignment.MainClass</mainClass>
+						
 					</manifest>
 				</archive>
 		<descriptorRefs>
