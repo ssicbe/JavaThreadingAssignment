@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
+//import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -44,7 +44,7 @@ class PrintJob implements Runnable{
 	         
 	         String query = "Insert into JavaThreadLog Values( 1," + "'" + location + "'" +","+ "'" + msg + "'" + ")";
 	        System.out.println(query);
-	         boolean rs = st.execute(query);
+	        st.execute(query);
 	         logger.info("SQL:" +msg);
 	         logger.info("SQL:" +query);
 	     } catch (SQLException ex) {
