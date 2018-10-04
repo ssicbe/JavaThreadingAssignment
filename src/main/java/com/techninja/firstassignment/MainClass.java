@@ -29,6 +29,7 @@ class PrintJob implements Runnable{
 				}
 				//System.out.println(location+"..Job Completed by Thread"+Thread.currentThread().getName());
 				logger.info(location+"..Job Started by Thread"+Thread.currentThread().getName());
+				MySQLLog(location+"..completed by Thread"+Thread.currentThread().getName());
 	}
 	
 	public void MySQLLog(String msg) {

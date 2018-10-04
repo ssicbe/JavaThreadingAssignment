@@ -1,0 +1,18 @@
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - United Kingdom..Job Started by Threadpool-1-thread-1
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - USA..Job Started by Threadpool-1-thread-2
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - No suitable driver found for jdbc:mysql://localhost:3306/MyJavaThreadLog?useSSL=false
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - No suitable driver found for jdbc:mysql://localhost:3306/MyJavaThreadLog?useSSL=false
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - United Kingdom..Job Started by Threadpool-1-thread-1
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - USA..Job Started by Threadpool-1-thread-2
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - India..Job Started by Threadpool-1-thread-1
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - No suitable driver found for jdbc:mysql://localhost:3306/MyJavaThreadLog?useSSL=false
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - Singapore..Job Started by Threadpool-1-thread-2
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - No suitable driver found for jdbc:mysql://localhost:3306/MyJavaThreadLog?useSSL=false
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - India..Job Started by Threadpool-1-thread-1
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - Singapore..Job Started by Threadpool-1-thread-2
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - Brazil..Job Started by Threadpool-1-thread-2
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - Dubai..Job Started by Threadpool-1-thread-1
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - No suitable driver found for jdbc:mysql://localhost:3306/MyJavaThreadLog?useSSL=false
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - No suitable driver found for jdbc:mysql://localhost:3306/MyJavaThreadLog?useSSL=false
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - Dubai..Job Started by Threadpool-1-thread-1
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - Brazil..Job Started by Threadpool-1-thread-2
