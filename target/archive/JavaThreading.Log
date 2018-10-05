@@ -34,3 +34,37 @@
 [pool-1-thread-3] INFO  com.techninja.firstassignment.PrintJob  - SQL:Insert into JavaThreadLog Values( 1,'Singapore','Singapore..completed by Threadpool-1-thread-3')
 [pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - SQL:Brazil..completed by Threadpool-1-thread-1
 [pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - SQL:Insert into JavaThreadLog Values( 1,'Brazil','Brazil..completed by Threadpool-1-thread-1')
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - United Kingdom..Job Started by Threadpool-1-thread-1
+[pool-1-thread-3] INFO  com.techninja.firstassignment.PrintJob  - India..Job Started by Threadpool-1-thread-3
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - USA..Job Started by Threadpool-1-thread-2
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - SQL:USA..Job Started by Threadpool-1-thread-2
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - SQL:Insert into JavaThreadingLog (location,log) Values('USA','USA..Job Started by Threadpool-1-thread-2')
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - Data truncation: Data too long for column 'location' at row 1
+[pool-1-thread-3] INFO  com.techninja.firstassignment.PrintJob  - SQL:India..Job Started by Threadpool-1-thread-3
+[pool-1-thread-3] INFO  com.techninja.firstassignment.PrintJob  - SQL:Insert into JavaThreadingLog (location,log) Values('India','India..Job Started by Threadpool-1-thread-3')
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - USA..Job Started by Threadpool-1-thread-2
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - United Kingdom..Job Started by Threadpool-1-thread-1
+[pool-1-thread-3] INFO  com.techninja.firstassignment.PrintJob  - India..Job Started by Threadpool-1-thread-3
+[pool-1-thread-3] INFO  com.techninja.firstassignment.PrintJob  - SQL:India..completed by Threadpool-1-thread-3
+[pool-1-thread-3] INFO  com.techninja.firstassignment.PrintJob  - SQL:Insert into JavaThreadingLog (location,log) Values('India','India..completed by Threadpool-1-thread-3')
+[pool-1-thread-3] INFO  com.techninja.firstassignment.PrintJob  - Singapore..Job Started by Threadpool-1-thread-3
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - Data truncation: Data too long for column 'location' at row 1
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - Dubai..Job Started by Threadpool-1-thread-1
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - SQL:USA..completed by Threadpool-1-thread-2
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - SQL:Insert into JavaThreadingLog (location,log) Values('USA','USA..completed by Threadpool-1-thread-2')
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - Brazil..Job Started by Threadpool-1-thread-2
+[pool-1-thread-3] INFO  com.techninja.firstassignment.PrintJob  - SQL:Singapore..Job Started by Threadpool-1-thread-3
+[pool-1-thread-3] INFO  com.techninja.firstassignment.PrintJob  - SQL:Insert into JavaThreadingLog (location,log) Values('Singapore','Singapore..Job Started by Threadpool-1-thread-3')
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - SQL:Dubai..Job Started by Threadpool-1-thread-1
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - SQL:Insert into JavaThreadingLog (location,log) Values('Dubai','Dubai..Job Started by Threadpool-1-thread-1')
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - SQL:Brazil..Job Started by Threadpool-1-thread-2
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - SQL:Insert into JavaThreadingLog (location,log) Values('Brazil','Brazil..Job Started by Threadpool-1-thread-2')
+[pool-1-thread-3] INFO  com.techninja.firstassignment.PrintJob  - Singapore..Job Started by Threadpool-1-thread-3
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - Dubai..Job Started by Threadpool-1-thread-1
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - Brazil..Job Started by Threadpool-1-thread-2
+[pool-1-thread-3] INFO  com.techninja.firstassignment.PrintJob  - SQL:Singapore..completed by Threadpool-1-thread-3
+[pool-1-thread-3] INFO  com.techninja.firstassignment.PrintJob  - SQL:Insert into JavaThreadingLog (location,log) Values('Singapore','Singapore..completed by Threadpool-1-thread-3')
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - SQL:Brazil..completed by Threadpool-1-thread-2
+[pool-1-thread-2] INFO  com.techninja.firstassignment.PrintJob  - SQL:Insert into JavaThreadingLog (location,log) Values('Brazil','Brazil..completed by Threadpool-1-thread-2')
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - SQL:Dubai..completed by Threadpool-1-thread-1
+[pool-1-thread-1] INFO  com.techninja.firstassignment.PrintJob  - SQL:Insert into JavaThreadingLog (location,log) Values('Dubai','Dubai..completed by Threadpool-1-thread-1')
