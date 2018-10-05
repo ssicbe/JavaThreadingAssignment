@@ -41,11 +41,11 @@ class PrintJob implements Runnable{
 	
 	    	 Connection con = DriverManager.getConnection(url, user, password);
 	         Statement st = con.createStatement();
-	         //ResultSet rs1=st.executeQuery("Select Count(*)+1 from JavaThreadLog");
+	              
+	         String query = "Insert into JavaThreadingLog (location,log) Values('" + location + "'" +","+ "'" + msg + "'" + ")";
+	         System.out.println(query);
+	         st.execute(query);
 	         
-	         String query = "Insert into JavaThreadLog Values( 1," + "'" + location + "'" +","+ "'" + msg + "'" + ")";
-	        System.out.println(query);
-	        st.execute(query);
 	         logger.info("SQL:" +msg);
 	         logger.info("SQL:" +query);
 	     } catch (SQLException ex) {
